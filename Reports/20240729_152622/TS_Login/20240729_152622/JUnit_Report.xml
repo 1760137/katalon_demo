@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="13.697" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Login" tests="2" failures="0" errors="0" time="13.697" skipped="0" timestamp="29-07-2024T15:26:30" hostname="Sunny - 192.168.1.10" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Demo\\Reports\\20240729_152622\\TS_Login\\20240729_152622"/>
+         <property name="logFiles" value="C:\\Demo\\Reports\\20240729_152622\\TS_Login\\20240729_152622\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sunny - 192.168.1.10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="5452242c64c3f06080b40c6aa77385af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_fail" time="0.396" classname="Test Cases/Login_fail" status="PASSED">
+         <system-out><![CDATA[29-07-2024T15:26:31 - [TEST_CASE][PASSED] - Test Cases/Login_fail: Test Cases/Login_fail
+
+29-07-2024T15:26:31 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_pass" time="12.882" classname="Test Cases/Login_pass" status="PASSED">
+         <system-out><![CDATA[29-07-2024T15:26:31 - [TEST_CASE][PASSED] - Test Cases/Login_pass: Test Cases/Login_pass
+
+29-07-2024T15:26:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T15:26:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T15:26:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T15:26:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T15:26:39 - [TEST_STEP][PASSED] - navigateToUrl("http://test.paydaes-dev.tvtgroup.io/login"): Navigate to 'http://test.paydaes-dev.tvtgroup.io/login' successfully
+
+29-07-2024T15:26:40 - [MESSAGE][PASSED] - Navigate to 'http://test.paydaes-dev.tvtgroup.io/login' successfully
+
+29-07-2024T15:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Vite  React  TS/input_Client Account ID_clientId"), "test"): Text 'test' is set on object 'Object Repository/Page_Vite  React  TS/input_Client Account ID_clientId'
+
+29-07-2024T15:26:41 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Vite  React  TS/input_Client Account ID_clientId'
+
+29-07-2024T15:26:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Vite  React  TS/input_User ID_userId"), "test"): Text 'test' is set on object 'Object Repository/Page_Vite  React  TS/input_User ID_userId'
+
+29-07-2024T15:26:42 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Vite  React  TS/input_User ID_userId'
+
+29-07-2024T15:26:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Vite  React  TS/input_Password_password"), "iflWuvlj4FI="): Text ****** has been set on object 'Object Repository/Page_Vite  React  TS/input_Password_password'
+
+29-07-2024T15:26:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Vite  React  TS/input_Password_password'
+
+29-07-2024T15:26:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vite  React  TS/button_Login")): Object: 'Object Repository/Page_Vite  React  TS/button_Login' is clicked on
+
+29-07-2024T15:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vite  React  TS/button_Login' is clicked on
+
+29-07-2024T15:26:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Vite  React  TS/span_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_Vite  React  TS/span_Dashboard' are matched.
+
+29-07-2024T15:26:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Vite  React  TS/span_Dashboard' are matched.
+
+29-07-2024T15:26:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-07-2024T15:26:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-07-2024T15:26:30 - [TEST_SUITE][PASSED] - TS_Login: Test Cases/Login_pass]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

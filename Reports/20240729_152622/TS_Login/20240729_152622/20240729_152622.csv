@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login,Chrome 126.0.0.0,,,29-07-2024 15:26:30,29-07-2024 15:26:44,13.697s,PASSED
+,,,,,,,
+Test Cases/Login_fail,Chrome 126.0.0.0,,,29-07-2024 15:26:31,29-07-2024 15:26:31,0.396s,PASSED
+return null,Chrome 126.0.0.0,,,29-07-2024 15:26:31,29-07-2024 15:26:31,0.008s,PASSED
+,,,,,,,
+Test Cases/Login_pass,Chrome 126.0.0.0,,,29-07-2024 15:26:31,29-07-2024 15:26:44,12.882s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 15:26:32,29-07-2024 15:26:39,7.719s,PASSED
+"navigateToUrl(""http://test.paydaes-dev.tvtgroup.io/login"")",Chrome 126.0.0.0,,,29-07-2024 15:26:39,29-07-2024 15:26:40,0.637s,PASSED
+"setText(findTestObject(""Object Repository/Page_Vite  React  TS/input_Client Account ID_clientId""), ""test"")",Chrome 126.0.0.0,,,29-07-2024 15:26:40,29-07-2024 15:26:41,1.205s,PASSED
+"setText(findTestObject(""Object Repository/Page_Vite  React  TS/input_User ID_userId""), ""test"")",Chrome 126.0.0.0,,,29-07-2024 15:26:41,29-07-2024 15:26:42,0.768s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Vite  React  TS/input_Password_password""), ""iflWuvlj4FI="")",Chrome 126.0.0.0,,,29-07-2024 15:26:42,29-07-2024 15:26:42,0.476s,PASSED
+"click(findTestObject(""Object Repository/Page_Vite  React  TS/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 15:26:42,29-07-2024 15:26:43,0.533s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Vite  React  TS/span_Dashboard""), ""Dashboard"")",Chrome 126.0.0.0,,,29-07-2024 15:26:43,29-07-2024 15:26:44,0.862s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,29-07-2024 15:26:44,29-07-2024 15:26:44,0.303s,PASSED
